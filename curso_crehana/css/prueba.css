@@ -1,0 +1,79 @@
+/* ESTILOS GENERALES */
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.contenedor{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header .top-header{
+  padding: 6px 0;
+  font-size: 12px;
+  border-bottom: 1px solid #f0f0f0;
+  background: #fafafa;
+  overflow: hidden;
+}
+
+.header .top-header .contenedor .top-menu{
+  float: left;
+}
+
+.header .top-header .contenedor .top-menu ul{
+  list-style: none;
+}
+
+.header .top-header .contenedor .top-menu ul li{
+  float: left;
+}
+
+.header .top-header .contenedor .top-menu ul li a{
+  text-decoration: none;
+  color: #363940;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.header .top-header .contenedor .top-menu ul li a:hover{
+  color: #8b919c;
+}
+
+.header .top-header .contenedor .top-redes{
+  float: right;
+}
+
+.header .top-header .contenedor .top-redes ul{
+  list-style: none;
+}
+
+.header .top-header .contenedor .top-redes ul li{
+  float: right;
+}
+
+.header .top-header .contenedor .top-redes ul li a{
+  text-decoration: none;
+  color: #363940;
+  padding: 10px 15px;
+  margin-right: 3px;
+  display: inline-block;
+  border: 1px solid #bababa;
+  border-radius: 8%;
+}
+
+.header .top-header .contenedor .top-redes ul li a:hover{
+  color: #fff;
+  border: 1px solid #0489b1;
+  background: #00bfff;
+}
