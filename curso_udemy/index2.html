@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Mi primera Web</title>
+</head>
+<body>
+  <h1>Titulo de mi Web</h1>
+  <h2>Bienvenidos a mi Web</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat dolor a fermentum porttitor. Fusce tristique tempus tempus. Nulla mollis, nibh at faucibus elementum, massa magna scelerisque velit, malesuada vulputate nulla augue non purus. <br> Nunc tristique mi vel luctus placerat. Donec commodo pulvinar sapien a faucibus. Nunc dapibus, tortor vitae suscipit hendrerit, augue eros accumsan justo, quis consequat lacus neque commodo nibh. Aliquam dolor risus, dapibus ut enim in, sollicitudin placerat dui.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat dolor a fermentum porttitor. Fusce tristique tempus tempus. Nulla mollis, nibh at faucibus elementum, massa magna scelerisque velit, malesuada vulputate nulla augue non purus. Nunc tristique mi vel luctus placerat. Donec commodo pulvinar sapien a faucibus. Nunc dapibus, tortor vitae suscipit hendrerit, augue eros accumsan justo, quis consequat lacus neque commodo nibh. Aliquam dolor risus, dapibus ut enim in, sollicitudin placerat dui.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat dolor a fermentum porttitor. Fusce tristique tempus tempus. Nulla mollis, nibh at faucibus elementum, massa magna scelerisque velit, malesuada vulputate nulla augue non purus. Nunc tristique mi vel luctus placerat. Donec commodo pulvinar sapien a faucibus. Nunc dapibus, tortor vitae suscipit hendrerit, augue eros accumsan justo, quis consequat lacus neque commodo nibh. Aliquam dolor risus, dapibus ut enim in, sollicitudin placerat dui.
+  </p>
+  <hr>
+  <h2>Imágenes en HTML</h2>
+  <img src="imagenes/pato.jpg" alt="Imagen de un perro" title="Foto de perro" width="300px">
+  <hr>
+  <h3>Tercer encabezado de la página</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat dolor a fermentum porttitor. Fusce tristique tempus tempus. <strong> Nulla mollis </strong>, <em>nibh at faucibus elementum </em>, <i>massa magna scelerisque velit </i>, malesuada vulputate nulla augue non purus. <span id="resaltado" class="rojo amarillo">Nunc tristique mi vel luctus placerat. </span> <blockquote> Donec commodo pulvinar sapien a faucibus. Nunc dapibus, tortor vitae suscipit hendrerit, augue eros accumsan justo, quis consequat lacus neque commodo nibh. Aliquam dolor risus, dapibus ut enim in, sollicitudin placerat dui. </blockquote>
+  </p>
+
+  <h3>Listado de frutas</h3>
+  <ol>
+    <li>Manzana
+      <ul>
+        <li>Roja</li>
+        <li>Verde</li>
+      </ul>
+    </li>
+    <li>Naranja</li>
+    <li>Pera</li>
+    <li>Sandia</li>
+  </ol>
+  <hr>
+  <h3>Tablas</h3>
+  <table border="1">
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Pais</th>
+    </tr>
+    <tr>
+      <td>Victor</td>
+      <td>Robles</td>
+      <td>España</td>
+    </tr>
+    <tr>
+      <td>Kevin</td>
+      <td colspan="2">Lopez</td>
+      <!--<td>Mexico</td>-->
+    </tr>
+  </table>
+  <hr>
+  <h3>Formulario</h3>
+  <form>
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre...">
+    <label for="descripcion">Descripción</label>
+    <textarea name="descripcion"></textarea><br>
+    <input type="radio" name="genero" value="hombre"> Hombre <br>
+    <input type="radio" name="genero" value="mujer"> Mujer <br>
+    <input type="radio" name="genero" value="nada"> Nada <br>
+    <select name="generodos">
+      <option value="hombre">Hombre</option>
+      <option value="mujer">Mujer</option>
+      <option value="nada">Nada</option>
+      <input type="submit" value="Enviar">
+    </select>
+  </form>
+</body>
+</html>
