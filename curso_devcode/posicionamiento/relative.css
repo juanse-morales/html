@@ -1,0 +1,15 @@
+.titulo{
+  background: gold;
+}
+.descripcion{
+  background: green;
+  position: relative;
+  top: 0;
+  left: 40px;  
+  right: 40px;
+  bottom: 0;
+
+}
+.autor{
+  background: purple;  
+}

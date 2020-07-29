@@ -1,0 +1,24 @@
+.titulo{
+  background: yellow;
+  width: 300px;
+  height: 50px;
+}
+.descripcion{
+  background: green;
+  width: 300px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.autor{
+  background: purple; 
+  width: 300px;  
+  height: 50px;
+}
+.contenedor{
+  width: 400px;
+  height: 100px;
+  background: red;
+  position: relative;
+}
