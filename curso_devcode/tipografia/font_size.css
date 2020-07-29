@@ -1,0 +1,20 @@
+p{
+  /* font-size: 24px; */
+  /* font-size: 24pt; */
+  /* font-size: 24mm; */
+  /* font-size: 4em; */
+  /* font-size: 4rem; */
+  /* font-size: 300%; */
+  /* font-size: xx-small; */
+  /* font-size: x-samll; */
+  /* font-size: small; */
+  /* font-size: medium; */
+  /* font-size: large; */
+  font-size: x-large;
+  /* font-size: xx-large; */
+}
+
+span{
+  /* font-size: larger; */
+  font-size: smaller;
+}

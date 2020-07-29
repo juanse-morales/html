@@ -1,0 +1,14 @@
+h1{
+  /* font: 24px Impact; */
+  /* font: caption; */
+  /* font: Icon; */
+  /* font: menu; */
+  /* font: message; */
+  /* font: box; */
+  /* font: small-caption; */
+  font: status-bar;
+}
+
+p{
+  font: bold oblique 16px/2 Verdana;
+}
