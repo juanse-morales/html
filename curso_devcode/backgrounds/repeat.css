@@ -1,0 +1,19 @@
+body,h1{
+  margin: 0;
+}
+
+section{
+  text-align: center;
+  width: 690px;
+  height: 290px;
+  padding: 5px;
+  margin: 0;
+  background-color: lightgreen;
+  background-image: url(https://devcode.la/static/background-300x150.jpg);
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: space; */
+  /* background-repeat: round; */
+  background-repeat: repeat no-repeat;
+} 

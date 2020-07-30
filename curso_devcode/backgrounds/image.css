@@ -1,0 +1,13 @@
+body,h1{
+  margin: 0;
+}
+
+section{
+  text-align: center;
+  width: 590px;
+  height: 290px;
+  padding: 5px;
+  margin: 0;
+  background-color: lightgreen;
+  background-image: url(https://devcode.la/static/background-600x300.jpg);
+}

@@ -1,0 +1,12 @@
+body,h1{
+  margin: 0;
+}
+
+  section{
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  background: url(http://farm4.static.flickr.com/3578/3319495237_6f0ef6c3f1.jpg) no-repeat lightgreen right bottom;
+} 

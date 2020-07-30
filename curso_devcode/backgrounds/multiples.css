@@ -1,0 +1,9 @@
+div{
+  width: 600px;
+  height: 480px;
+  border: 5px solid lightgrey;
+  margin: 0 auto;
+  background-image: url(https://devcode.la/static/man.png), url(https://devcode.la/static/pc.png), url(https://devcode.la/static/bd.png), url(https://devcode.la/static/browser.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, right bottom, right top, left center;
+}
