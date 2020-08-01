@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tablas</title>
+  <link rel="stylesheet" type="text/css" href="scope.css">
+</head>
+<body>
+  <h1>Tablas: Scope</h1>
+
+  <table border="1">
+    <caption>Lista de clientes</caption>
+    <thead>
+      <tr>
+        <th scope="col" rowspan="2">Código</th>
+        <th scope="col" colspan="3" id="datos">Datos personales</th>
+      </tr>
+      <tr>
+        <th scope="col" header="datos">Nombres</th>
+        <th scope="col" header="datos">Apellidos</th>
+        <th scope="col" header="datos">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Luis Miguel</td>
+        <td>Linares Castillo</td>
+        <td>luislinares@outlook.com</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Juan Carlos</td>
+        <td>Rodríguez Paredes</td>
+        <td>juanrodriguez@gmail.com</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>José Ignacio</td>
+        <td>Guevara Ramirez</td>
+        <td>joseguevara@yahoo.es</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">Total</th>
+        <td></td>
+        <td></td>
+        <td>3</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
